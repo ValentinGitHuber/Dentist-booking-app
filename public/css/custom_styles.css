@@ -1,0 +1,60 @@
+
+html, body {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    color: #636b6f;
+}
+body i{
+    color: #636b6fc2;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+hr{
+    border-top: 1px solid #ced4da;
+}
+select{
+    cursor: pointer;
+}
+.row-spacing{
+    padding-top: 50px;
+}
+.my-custom-form{
+    border: 1px solid #636b6fa3;
+    border-radius: 4px;
+    width: 100%;
+    padding: 30px 0;
+}
+.my-custom-form label{
+    text-align: right;
+}
+@media screen and (max-width: 576px) {
+    .my-custom-form label{
+        text-align: left;
+    }
+}
+.help i,
+.calendar i{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    height: 100%;
+    font-size: 130%;
+}
+.help i:hover,
+.calendar i:hover{
+    cursor: pointer;
+    color: rgb(173, 205, 234);
+}
+.first-container{
+    max-width: 800px;
+}
+.second-container{
+    max-width: 500px;
+}
+
+.list-group-item.disabled{
+    background-color: #FAFAFA;
+}
