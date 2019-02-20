@@ -15,7 +15,7 @@ Source: [Setting up Laravel on Mac OS](https://medium.com/@sunilk/laravel-develo
 
 1. 	Download `composer.phar` file from https://getcomposer.org/composer.phar
 
-2. 	Open Terminal and run following command to test
+2. 	Open terminal and run following command to test
 
 	```console
 	php ~/Downloads/composer.phar --version
@@ -27,14 +27,14 @@ Source: [Setting up Laravel on Mac OS](https://medium.com/@sunilk/laravel-develo
 	Composer version 1.7-dev (sd2guirofdhdsgjkfg3fsdj4bfdhf) 20xx–00–00 21:36:46
 	```
 
-3. 	Now let’s copy to bin and install it, with below command
+3. 	Now let’s copy to bin and install it with below command
 
 	```console
 	sudo cp ~/Downloads/composer.phar /usr/local/bin/composer
 	sudo chmod +x /usr/local/bin/composer
 	```
 
-	Let’s test, if all is good with composer
+	Let’s test if all is good with composer
 
 	```console
 	composer --version
@@ -68,9 +68,9 @@ Download MAMP from https://www.mamp.info/en/
 
 4. 	Open your `.env` file and change the following fields:
 	
-	DB_DATABASE=dentist
+	`DB_DATABASE=dentist
 	DB_USERNAME=root
-	DB_PASSWORD=root
+	DB_PASSWORD=root`
 
 5. 	Generate key
 
@@ -78,7 +78,7 @@ Download MAMP from https://www.mamp.info/en/
 	php artisan key:generate
 	```
 
-6. 	Start MAMP server and go to http://localhost:8888/phpMyAdmin
+6. 	Start MAMP server and go to phpMyAdmin http://localhost:8888/phpMyAdmin
 
 7. 	Create a database with the name `dentist` (the same name as in the `.env` file)
 
@@ -93,7 +93,7 @@ Download MAMP from https://www.mamp.info/en/
 Run the following command in app folder after installation
 
 	```console
-	php artisan serve
+	php artisan server
 	```
 
 Go to http://localhost:8000
