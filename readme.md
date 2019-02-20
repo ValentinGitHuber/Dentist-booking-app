@@ -68,9 +68,11 @@ Download MAMP from https://www.mamp.info/en/
 
 4. 	Open your `.env` file and change the following fields:
 	
-	`DB_DATABASE=dentist
+	```
+	DB_DATABASE=dentist
 	DB_USERNAME=root
-	DB_PASSWORD=root`
+	DB_PASSWORD=root
+	```
 
 5. 	Generate key
 
