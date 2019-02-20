@@ -15,13 +15,13 @@ Source: [Setting up Laravel on Mac OS](https://medium.com/@sunilk/laravel-develo
 
 1. 	Download composer.phar file from https://getcomposer.org/composer.phar
 
-2. 	Open Terminal and type bellow to test
+2. 	Open Terminal and run following command to test
 
 	```console
 	php ~/Downloads/composer.phar --version
 	```
 
-   	Above, command will output as below composer version:
+   	Above, command will output composer version:
 
 	```console
 	Composer version 1.7-dev (sd2guirofdhdsgjkfg3fsdj4bfdhf) 20xx–00–00 21:36:46
@@ -50,29 +50,29 @@ Source: [Setting up Laravel on Mac OS](https://medium.com/@sunilk/laravel-develo
 
 Download MAMP from https://www.mamp.info/en/
 
-## Install this Laravel app after clone
+## Install Dentist Booking App
 
-1. 	Open Terminal and go to the application folder
+1. 	Open terminal and go to the application folder
 
 	```console
-	cd <path>/laravel
+	cd <my path to folder>
 	```
 
-2. 	Run intstallation of composer in your terminal
+2. 	Install composer in project folder
 
 	```console
 	composer install
 	```
 
-3. 	Copy .env.example file to .env on the root folder (create .env file if it doesn't exist).
+3. 	Copy `.env.example` file to `.env` on the root folder (create `.env` file if it doesn't exist).
 
-4. 	Open your .env file and change the following fields:
+4. 	Open your `.env` file and change the following fields:
 	
 	DB_DATABASE=dentist
 	DB_USERNAME=root
 	DB_PASSWORD=root
 
-5. 	Run next command
+5. 	Generate key
 
 	```console
 	php artisan key:generate
@@ -80,9 +80,9 @@ Download MAMP from https://www.mamp.info/en/
 
 6. 	Start MAMP server and go to http://localhost:8888/phpMyAdmin
 
-7. 	Create a database with the name `dentist` (the same name as in the .env file)
+7. 	Create a database with the name `dentist` (the same name as in the `.env` file)
 
-8. 	Run with terminal to migrate tables
+8. 	Migrate database tables
 
 	```console
 	php artisan migrate
