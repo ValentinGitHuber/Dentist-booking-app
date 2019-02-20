@@ -7,13 +7,13 @@ Laravel based project that allows a user to book a session to dentist by selecti
 
 The app has two pages on http://127.0.0.1:8000/ and http://127.0.0.1:8000/dashboard
 
-![What user can see](https://ibb.co/djMzxwm)
+![What client can see](https://user-images.githubusercontent.com/19436522/53124414-f9c54400-3563-11e9-9660-1cbeb1475c5a.png)
 
 First page is to make a booking
 
-![What admin can see](https://ibb.co/fQpfQL8)
+![What admin can see](https://user-images.githubusercontent.com/19436522/53124416-fa5dda80-3563-11e9-92ce-e7f552257297.png)
 
-Second is to view all requested bookings
+Second page is to view all requested bookings
 
 Laravel docs: https://laravel.com/docs
 
