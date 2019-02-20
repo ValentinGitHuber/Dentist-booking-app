@@ -92,9 +92,9 @@ Download MAMP from https://www.mamp.info/en/
 
 Run the following command in app folder after installation
 
-	```console
-	php artisan server
-	```
+```console
+php artisan server
+```
 
 Go to http://localhost:8000
 
