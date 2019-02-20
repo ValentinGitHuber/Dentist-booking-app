@@ -5,6 +5,16 @@
 
 Laravel based project that allows a user to book a session to dentist by selecting procedure and time. This app has only learning purposes and can't be used in production. 
 
+The app has two pages on http://127.0.0.1:8000/ and http://127.0.0.1:8000/dashboard
+
+![What user can see](https://ibb.co/djMzxwm)
+
+First page is to make a booking
+
+![What admin can see](https://ibb.co/fQpfQL8)
+
+Second is to view all requested bookings
+
 Laravel docs: https://laravel.com/docs
 
 To run the app on your machine follow the steps below
