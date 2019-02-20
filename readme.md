@@ -28,7 +28,7 @@ Source: [Setting up Laravel on Mac OS](https://medium.com/@sunilk/laravel-develo
 	php ~/Downloads/composer.phar --version
 	```
 
-   	Above, command will output composer version:
+   	Above command will output composer version:
 
 	```console
 	Composer version 1.7-dev (sd2guirofdhdsgjkfg3fsdj4bfdhf) 20xx–00–00 21:36:46
@@ -97,7 +97,7 @@ Download MAMP from https://www.mamp.info/en/
 	php artisan migrate
 	```
 
-## Run app
+## Run the app
 
 Run the following command in app folder after installation
 
