@@ -16,7 +16,7 @@ Laravel docs: https://laravel.com/docs
 
 To run the app on your machine follow the steps below
 
-## Installing Composer
+## Install Composer
 
 Source: [Setting up Laravel on Mac OS](https://medium.com/@sunilk/laravel-development-guide-setting-up-laravel-on-mac-os-with-xampp-f6d18bb2b55d)
 
@@ -97,7 +97,7 @@ Download MAMP from https://www.mamp.info/en/
 	php artisan migrate
 	```
 
-## Run Dentinst Booking App
+## Run app
 
 Run the following command in app folder after installation
 
