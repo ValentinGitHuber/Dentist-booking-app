@@ -11,7 +11,7 @@ To run the app on your machine follow the steps below
 
 ## Installing Composer
 
-Source: https://medium.com/@sunilk/laravel-development-guide-setting-up-laravel-on-mac-os-with-xampp-f6d18bb2b55d
+Source: [Setting up Laravel on Mac OS](https://medium.com/@sunilk/laravel-development-guide-setting-up-laravel-on-mac-os-with-xampp-f6d18bb2b55d)
 
 1. 	Download composer.phar file from https://getcomposer.org/composer.phar
 
