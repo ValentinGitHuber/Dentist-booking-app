@@ -8,8 +8,8 @@ Laravel based project that allows a user to book a session to dentist by selecti
 The app has two pages on http://127.0.0.1:8000/ and http://127.0.0.1:8000/dashboard
 
 <p align="center" float="left">
-	<img src="https://user-images.githubusercontent.com/19436522/53124414-f9c54400-3563-11e9-9660-1cbeb1475c5a.png">
-	<img src="https://user-images.githubusercontent.com/19436522/53124416-fa5dda80-3563-11e9-92ce-e7f552257297.png">
+	<img src="https://user-images.githubusercontent.com/19436522/53124414-f9c54400-3563-11e9-9660-1cbeb1475c5a.png" width="80%">
+	<img src="https://user-images.githubusercontent.com/19436522/53124416-fa5dda80-3563-11e9-92ce-e7f552257297.png" width="80%">
 </p>
 
 Laravel docs: https://laravel.com/docs
